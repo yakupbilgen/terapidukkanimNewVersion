@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96436375786",
+    "project_id": "terapidukkanim-52d44",
+    "storage_bucket": "terapidukkanim-52d44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96436375786:android:db5798eab1990656068793",
+        "android_client_info": {
+          "package_name": "org.bilgen.terapidukkanim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96436375786-77375d2np8f53pp1ud90j9dq6rtdniaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEuD1Ln6brhGibiZ6UKpJuK6JvgQUAuAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96436375786-77375d2np8f53pp1ud90j9dq6rtdniaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
