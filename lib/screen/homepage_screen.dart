@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
           style: Theme.of(context)
               .textTheme
               .headline6
-              ?.copyWith(color: Colors.red),
+              ?.copyWith(color: Colors.red, fontWeight: FontWeight.bold),
         ),
       ),
       body: bottomNavigatorBarSelectedItem(selectedIndex),
