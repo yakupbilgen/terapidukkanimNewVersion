@@ -21,6 +21,7 @@ class AppointmentCardWidget extends StatelessWidget {
         child: Column(
           children: [
             Image.asset("assets/images/$theraphyImage"),
+            const SizedBox(height: 10),
             Center(
               child: Text(therapyName,
                   style: Theme.of(context).textTheme.headline5),
