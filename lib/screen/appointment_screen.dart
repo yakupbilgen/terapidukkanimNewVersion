@@ -19,7 +19,13 @@ class AppointmentScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text(appBarTitle),
+        title: Text(
+          appBarTitle,
+          style: Theme.of(context)
+              .textTheme
+              .headline6
+              ?.copyWith(color: Colors.red),
+        ),
       ),
       body: SingleChildScrollView(
         child: Center(
