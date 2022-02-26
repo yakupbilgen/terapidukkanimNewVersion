@@ -26,6 +26,13 @@ class AppointmentScreen extends StatelessWidget {
               .headline6
               ?.copyWith(color: Colors.red, fontWeight: FontWeight.bold),
         ),
+        leading: IconButton(
+          icon: const Icon(
+            Icons.arrow_back,
+            color: Colors.red,
+          ),
+          onPressed: () => Navigator.pop(context),
+        ),
       ),
       body: SingleChildScrollView(
         child: Center(
